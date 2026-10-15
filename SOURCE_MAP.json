@@ -1,0 +1,58 @@
+{
+  "repo_name": "PeiTotem",
+  "stage_path": "C:\\Users\\nickc\\Desktop\\Dev\\github-upload-prepared\\packs\\PeiTotem",
+  "source_paths": [
+    "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版"
+  ],
+  "existing_git_paths": [],
+  "exclusions": [
+    {
+      "path": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版\\不死佩腾重制版-1.14-1.21.8.zip",
+      "reason": "依赖/分发二进制、压缩包、Git/IDE/缓存/临时文件"
+    },
+    {
+      "path": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版\\不死佩腾重制版psd.zip",
+      "reason": "依赖/分发二进制、压缩包、Git/IDE/缓存/临时文件"
+    },
+    {
+      "path": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版\\佩雷MC皮肤和头.zip",
+      "reason": "依赖/分发二进制、压缩包、Git/IDE/缓存/临时文件"
+    }
+  ],
+  "retained_thirdparty": [],
+  "archive_variants": [
+    {
+      "source_archive": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版\\不死佩腾重制版-1.14-1.21.8.zip",
+      "stage_path": "C:\\Users\\nickc\\Desktop\\Dev\\github-upload-prepared\\packs\\PeiTotem\\versions\\resourcepacks\\current\\不死佩腾重制版\\不死佩腾重制版-1.14-1.21.8",
+      "sha256": "4fd90f3574664e4ed286954b323e1d53051038e097aa6abb9cf44a30f58d2424",
+      "extracted_files": 2,
+      "excluded_entries": [],
+      "status": "extracted-source-variant"
+    },
+    {
+      "source_archive": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版\\不死佩腾重制版psd.zip",
+      "stage_path": "C:\\Users\\nickc\\Desktop\\Dev\\github-upload-prepared\\packs\\PeiTotem\\versions\\resourcepacks\\current\\不死佩腾重制版\\不死佩腾重制版psd",
+      "sha256": "7c19dfdd402f516fd7949ce496cbbbd6a39b5d3c2125fb6696d9f25378ddfe2a",
+      "extracted_files": 5,
+      "excluded_entries": [
+        "不死佩腾重制版-1.14-1.21.8.zip"
+      ],
+      "status": "extracted-source-variant"
+    },
+    {
+      "source_archive": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版\\佩雷MC皮肤和头.zip",
+      "stage_path": "C:\\Users\\nickc\\Desktop\\Dev\\github-upload-prepared\\packs\\PeiTotem\\versions\\resourcepacks\\current\\不死佩腾重制版\\佩雷MC皮肤和头",
+      "sha256": "578af0c794f03cfba25da7a172219296f24550fffe5a7b7e9bcaace7b2d19592",
+      "extracted_files": 10,
+      "excluded_entries": [],
+      "status": "extracted-source-variant"
+    }
+  ],
+  "source_mapping": [
+    {
+      "source": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版",
+      "stage_relative": "resourcepacks\\current\\不死佩腾重制版"
+    }
+  ],
+  "file_count": 26
+}

@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.gradle/
+build/
+dist/
+*.exe
+*.jar
+*.log
+.DS_Store
