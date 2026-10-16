@@ -1,0 +1,83 @@
+{
+  "name": "PeiTotem",
+  "ref": "snapshot/pack-002",
+  "kind": "tag",
+  "base_commit": "13cdbee5ff674fe815e6be78af07ec2978715f2f",
+  "default_version_branch": "mc/1.20-compatible",
+  "branches": [
+    "mc/1.20-compatible"
+  ],
+  "snapshots": [
+    "snapshot/pack-001",
+    "snapshot/pack-002",
+    "snapshot/pack-003"
+  ],
+  "mappings": [
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/不死佩腾重制版psd/assets/minecraft/textures/item/totem_of_undying.png",
+      "target_prefix": "assets/minecraft/textures/item/totem_of_undying.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/不死佩腾重制版psd/pack.mcmeta",
+      "target_prefix": "pack.mcmeta"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/不死佩腾重制版psd/totem_of_undying.png",
+      "target_prefix": "totem_of_undying.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/不死佩腾重制版psd/不死佩腾.png",
+      "target_prefix": "不死佩腾.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/不死佩腾重制版psd/不死佩腾.psd",
+      "target_prefix": "不死佩腾.psd"
+    },
+    {
+      "source_prefix": ".gitignore",
+      "target_prefix": ".gitignore"
+    },
+    {
+      "source_prefix": "LICENSE",
+      "target_prefix": "LICENSE"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "README.md"
+    },
+    {
+      "source_prefix": "SOURCE_MAP.json",
+      "target_prefix": "SOURCE_MAP.json"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "docs/original-layout/README.md"
+    }
+  ],
+  "metadata": {
+    "name": "snapshot/pack-002",
+    "source_archive": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版\\不死佩腾重制版psd.zip",
+    "source_archive_sha256": "7c19dfdd402f516fd7949ce496cbbbd6a39b5d3c2125fb6696d9f25378ddfe2a",
+    "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/不死佩腾重制版psd",
+    "source_exists": true,
+    "pack_roots": [
+      "versions/resourcepacks/current/不死佩腾重制版/不死佩腾重制版psd"
+    ],
+    "metadata": [
+      {
+        "pack_format": 15,
+        "supported_formats": [
+          5,
+          64
+        ]
+      }
+    ],
+    "identical_current_pack_roots": [
+      "resourcepacks/current/不死佩腾重制版"
+    ],
+    "classification": "same-mc-release-or-functional-snapshot",
+    "mc_branch": null,
+    "group": "packs"
+  },
+  "collision_preservation": []
+}
