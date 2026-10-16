@@ -1,0 +1,94 @@
+{
+  "name": "PeiTotem",
+  "ref": "mc/1.20-compatible",
+  "kind": "branch",
+  "base_commit": "13cdbee5ff674fe815e6be78af07ec2978715f2f",
+  "default_version_branch": "mc/1.20-compatible",
+  "branches": [
+    "mc/1.20-compatible"
+  ],
+  "snapshots": [
+    "snapshot/pack-001",
+    "snapshot/pack-002",
+    "snapshot/pack-003"
+  ],
+  "mappings": [
+    {
+      "source_prefix": "resourcepacks/current/不死佩腾重制版/assets/minecraft/textures/item/totem_of_undying.png",
+      "target_prefix": "assets/minecraft/textures/item/totem_of_undying.png"
+    },
+    {
+      "source_prefix": "resourcepacks/current/不死佩腾重制版/pack.mcmeta",
+      "target_prefix": "pack.mcmeta"
+    },
+    {
+      "source_prefix": "resourcepacks/current/不死佩腾重制版/totem_of_undying.png",
+      "target_prefix": "totem_of_undying.png"
+    },
+    {
+      "source_prefix": "resourcepacks/current/不死佩腾重制版/不死佩腾.png",
+      "target_prefix": "不死佩腾.png"
+    },
+    {
+      "source_prefix": "resourcepacks/current/不死佩腾重制版/不死佩腾.psd",
+      "target_prefix": "不死佩腾.psd"
+    },
+    {
+      "source_prefix": ".gitignore",
+      "target_prefix": ".gitignore"
+    },
+    {
+      "source_prefix": "LICENSE",
+      "target_prefix": "LICENSE"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "README.md"
+    },
+    {
+      "source_prefix": "SOURCE_MAP.json",
+      "target_prefix": "SOURCE_MAP.json"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "docs/original-layout/README.md"
+    }
+  ],
+  "metadata": {
+    "name": "mc/1.20-compatible",
+    "pack_metadata": [
+      {
+        "source_prefix": "resourcepacks/current/不死佩腾重制版",
+        "pack_type": "resourcepack",
+        "raw": {
+          "pack_format": 15,
+          "supported_formats": [
+            5,
+            64
+          ]
+        }
+      }
+    ],
+    "exact_mc_support_verified": false,
+    "target_evidence": "pack.mcmeta only; exact MC not asserted",
+    "format_evidence": {
+      "previous_name": "pack-format/15",
+      "recommended_name": "mc/1.20-compatible",
+      "mappings": [
+        {
+          "source_prefix": "resourcepacks/current/不死佩腾重制版",
+          "target_prefix": "."
+        }
+      ],
+      "format_anchor": {
+        "pack_type": "resourcepack",
+        "format": "15",
+        "official_minecraft_release": "1.20"
+      },
+      "reason": "Official release format anchor; pack metadata/support declarations remain untested. Preserve all functional variants."
+    },
+    "group": "packs",
+    "old_name": "mc/1.20-compatible"
+  },
+  "collision_preservation": []
+}
