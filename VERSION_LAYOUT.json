@@ -1,0 +1,91 @@
+{
+  "name": "PeiTotem",
+  "ref": "snapshot/pack-003",
+  "kind": "tag",
+  "base_commit": "13cdbee5ff674fe815e6be78af07ec2978715f2f",
+  "default_version_branch": "mc/1.20-compatible",
+  "branches": [
+    "mc/1.20-compatible"
+  ],
+  "snapshots": [
+    "snapshot/pack-001",
+    "snapshot/pack-002",
+    "snapshot/pack-003"
+  ],
+  "mappings": [
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/APeiapei.png",
+      "target_prefix": "APeiapei.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/Apeiapei.psd",
+      "target_prefix": "Apeiapei.psd"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/Head2_front_佩.png",
+      "target_prefix": "Head2_front_佩.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/Head2_front_雷.png",
+      "target_prefix": "Head2_front_雷.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/Head_front_佩.png",
+      "target_prefix": "Head_front_佩.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/Head_front_雷.png",
+      "target_prefix": "Head_front_雷.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/fexxx.png",
+      "target_prefix": "fexxx.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/fexxx.psd",
+      "target_prefix": "fexxx.psd"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/佩MC头像.png",
+      "target_prefix": "佩MC头像.png"
+    },
+    {
+      "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头/雷MC头像.png",
+      "target_prefix": "雷MC头像.png"
+    },
+    {
+      "source_prefix": ".gitignore",
+      "target_prefix": ".gitignore"
+    },
+    {
+      "source_prefix": "LICENSE",
+      "target_prefix": "LICENSE"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "README.md"
+    },
+    {
+      "source_prefix": "SOURCE_MAP.json",
+      "target_prefix": "SOURCE_MAP.json"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "docs/original-layout/README.md"
+    }
+  ],
+  "metadata": {
+    "name": "snapshot/pack-003",
+    "source_archive": "C:\\Users\\nickc\\Desktop\\Dev\\Resource Pack\\不死佩腾重制版\\佩雷MC皮肤和头.zip",
+    "source_archive_sha256": "578af0c794f03cfba25da7a172219296f24550fffe5a7b7e9bcaace7b2d19592",
+    "source_prefix": "versions/resourcepacks/current/不死佩腾重制版/佩雷MC皮肤和头",
+    "source_exists": true,
+    "pack_roots": [],
+    "metadata": [],
+    "identical_current_pack_roots": [],
+    "classification": "auxiliary-assets-or-workflow-snapshot",
+    "mc_branch": null,
+    "group": "packs"
+  },
+  "collision_preservation": []
+}

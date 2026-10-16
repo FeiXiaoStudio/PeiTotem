@@ -1,23 +1,18 @@
 # PeiTotem
 
-本仓库保存以下 Minecraft 玩法/资源的源文件，当前实现与历史版本按目录分开。
+Minecraft version/source line: **`snapshot/pack-003`**.
 
-- 不死佩腾重制版
+## Version branches
 
-## 使用
+- [`mc/1.20-compatible`](https://github.com/FeiXiaoStudio/PeiTotem/tree/mc/1.20-compatible)
 
-在 datapacks/current 或 resourcepacks/current 中找到含 pack.mcmeta 的目录；将该完整目录复制到世界 datapacks 或客户端 resourcepacks。版本兼容范围以各目录的 pack.mcmeta 与原文件名为准。不要同时启用同一玩法的多个版本。libraries、tools 和 tests 为开发辅助内容。
+At this migration, `main` follows `mc/1.20-compatible`. Different Minecraft implementations are maintained in their own branches. Same-version source snapshots use tags; see [VERSION_LAYOUT.json](VERSION_LAYOUT.json) for the original paths and metadata.
 
-## 历史版本
+## Use and development
 
-versions 中保留各原始 ZIP 的源文件快照和原有目录结构，不以当前实现覆盖历史文件。原压缩包名称见 SOURCE_MAP.json。已有 Git 历史和所有分支由导入步骤另行保留；当前准备目录不含 .git。
 
-## 开发与依赖
+Original instructions, caveats and development status are retained under `docs/original-layout/` when present; paths in those archived instructions refer to the pre-migration layout. This reorganization does not fix existing development issues or certify game compatibility.
 
-生成脚本与可编辑素材随源码保存；对应 Minecraft 游戏本体和外部依赖不随仓库分发。
+## Authors and license
 
-## 作者与授权
-
-原始作者署名与历史保持不变。自有实现和修改使用根目录 LICENSE 的 All Rights Reserved 声明。历史快照中的作者信息保持原样。
-
-新导入提交身份：FeiXiaoStudio <201218585+FeiXiaoStudio@users.noreply.github.com>。
+Original author credits and commits are preserved. New organization commits use FeiXiaoStudio. Root LICENSE applies to studio contributions; retained upstream license notices and collaborator credits keep their existing scope. Public visibility, when applicable, does not grant additional redistribution rights.
